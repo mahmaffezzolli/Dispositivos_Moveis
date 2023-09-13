@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.aula3.imc.R;
+
 public class MainActivity extends AppCompatActivity {
 
     EditText editTextWeight;
