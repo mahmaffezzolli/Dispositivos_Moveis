@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         listaitemChurrasco.add(new itemChurrasco(3, "Pão de alho", R.drawable.pao_de_alho));
         listaitemChurrasco.add(new itemChurrasco(4, "Refri", R.drawable.refrigerante));
 
-        itemChurrascoAdapter adapter = new itemChurrascoAdapter(this.R.layout.itemChurrasco, listaitemChurrasco);
+        itemChurrascoAdapter adapter = new itemChurrascoAdapter(this, R.layout.item_churrasco, listaitemChurrasco);
         listView.setAdapter(adapter);
     }
 }
